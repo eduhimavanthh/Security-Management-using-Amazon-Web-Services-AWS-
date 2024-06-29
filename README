@@ -1,0 +1,89 @@
+This repository contains all the code snippets used in the Lab Manual for Security Management using AWS. The curriculum covers a comprehensive range of topics essential for mastering AWS security and management practices.
+
+Curriculum:
+
+AWS Networking (Virtual Private Cloud)
+•	Exploring AWS networking concepts.
+•	Setting up Virtual Private Cloud (VPC).
+•	Configuring subnets, route tables, and internet gateways.
+
+AWS Security Groups
+•	Understand and configure AWS Security Groups for network traffic control.
+•	Implement rules to permit or deny traffic based on protocols and ports.
+•	Enforce security policies and restrict access to resources.
+•	Monitor and manage Security Groups for effective network security.
+
+EC2 Instances (Elastic Compute Cloud)
+•	Understanding EC2 Instances.
+•	Launching and managing EC2 instances.
+•	Key concepts: security groups, key pairs.
+
+IAM (Identity and Access Management)
+•	Managing access to AWS resources using IAM.
+•	Creating IAM users, groups, and roles.
+•	Implementing security best practices and permissions management.
+
+AWS Active Directory
+•	Understand AWS Active Directory for centralized identity management.
+•	Configure services for user authentication and authorization.
+•	Implement domain controllers and manage user accounts.
+•	Integrate with on-premises directories using AD Connector.
+•	Monitor directory health and security with AWS tools.
+
+AWS Organizations
+•	Setting up AWS Organizations to manage multiple AWS accounts.
+•	Creating organizational units (OUs) for structured management.
+•	Applying policies across accounts for consistent security and governance.
+•	Centralized billing and consolidated billing management.
+
+AWS IAM Identity Center
+•	Introduction to AWS IAM Identity Center (formerly AWS Single Sign-On).
+•	Setting up IAM Identity Center for centralized identity management.
+•	Integrating with AWS services and external identity providers.
+•	Managing user access and permissions across AWS accounts.
+•	Implementing best practices for secure identity management.
+
+AWS S3
+•	Creating and managing S3 buckets.
+•	Configuring bucket policies and access control lists (ACLs).
+•	Hosting a static website using S3.
+•	Implementing security measures such as encryption and versioning.
+
+AWS CloudWatch
+•	Creating an alarm in AWS CloudWatch to send an email if the CPU utilization of an instance exceeds 60%.
+•	Setting up AWS CloudWatch to monitor inbound and outbound traffic.
+•	Creating CloudWatch logs for various AWS services, including EC2 and S3.
+•	Configuring metrics and dashboards for real-time monitoring and analysis.
+
+AWS Auto Scaling
+•	Understanding AWS Auto Scaling concepts.
+•	Setting up Auto Scaling groups and policies.
+•	Configuring scaling policies based on metrics and events.
+•	Ensuring high availability and fault tolerance with Auto Scaling.
+
+AWS Load Balancing
+•	Introduction to AWS Load Balancing.
+•	Setting up Elastic Load Balancers (ELB) to distribute traffic.
+•	Configuring health checks and listener rules.
+•	Ensuring application availability and fault tolerance with load balancing.
+
+AWS Inspector
+•	Introduction to AWS Inspector for automated security assessment.
+•	Setting up AWS Inspector assessments and rules packages.
+•	Analyzing findings and implementing remediation steps.
+•	Continuous monitoring and compliance checks with AWS Inspector.
+
+AWS GuardDuty
+•	Introduction to AWS GuardDuty for threat detection.
+•	Setting up AWS GuardDuty for continuous security monitoring.
+•	Analyzing security findings and alerts.
+•	Implementing remediation and response actions based on GuardDuty findings.
+
+How to Use:
+1.	Clone this repository to your local machine using git clone https://github.com/yourusername/repository-name.git.
+2.	Navigate to the relevant topic directory to find the code snippets and scripts.
+3.	Follow the Lab Manual for detailed instructions on implementing and testing the code.
+
+Contributing:
+Contributions are welcome! If you find any issues or have improvements, feel free to create a pull request or open an issue.
+
