@@ -1,0 +1,24 @@
+To install Apache HTTP Server on an Ubuntu system, you can use the apt package manager. Here are the steps:
+
+Update the package index:
+- sudo apt update
+
+Install Apache:
+- sudo apt install apache2
+
+Verify the installation
+- apache2 -v
+This command will display the installed version of Apache.
+
+Start the Apache service:
+- sudo systemctl start apache2
+
+Enable Apache to start on boot:
+- sudo systemctl enable apache2
+
+Check the status of Apache to ensure it is running:
+- sudo systemctl status apache2
+
+Open your web browser and visit http://Public-IP-of-the-ubuntu-machine/:
+
+If Apache is installed and running correctly, you should see the default Apache welcome page.
