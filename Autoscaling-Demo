@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# Update package index
+sudo apt update
+
+# Install Apache web server
+sudo apt install -y apache2
+
+# Start Apache web server
+sudo systemctl start apache2
+
+# Get public IP address
+public_ip=$(curl -s ifconfig.me)
+
+# Get private IP address
+private_ip=$(hostname -I)
+
+# Create a custom index.html file with IP addresses
+cat <<EOF | sudo tee /var/www/html/index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Server IP Addresses</title>
+</head>
+<body>
+    <h1>Server IP Addresses</h1>
+    <p><strong>Public IP:</strong> $public_ip</p>
+    <p><strong>Private IP:</strong> $private_ip</p>
+</body>
+</html>
+EOF
+
+# Restart Apache to apply changes
+sudo systemctl restart apache2
+
+# Provide information to the user
+echo "Web server installed and configured."
+echo "Public IP address: $public_ip"
+echo "Private IP address: $private_ip"
