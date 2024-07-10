@@ -55,29 +55,17 @@ AWS CloudWatch
 •	Creating CloudWatch logs for various AWS services, including EC2 and S3.
 •	Configuring metrics and dashboards for real-time monitoring and analysis.
 
-AWS Auto Scaling
-•	Understanding AWS Auto Scaling concepts.
-•	Setting up Auto Scaling groups and policies.
-•	Configuring scaling policies based on metrics and events.
-•	Ensuring high availability and fault tolerance with Auto Scaling.
-
 AWS Load Balancing
 •	Introduction to AWS Load Balancing.
 •	Setting up Elastic Load Balancers (ELB) to distribute traffic.
 •	Configuring health checks and listener rules.
 •	Ensuring application availability and fault tolerance with load balancing.
 
-AWS Inspector
-•	Introduction to AWS Inspector for automated security assessment.
-•	Setting up AWS Inspector assessments and rules packages.
-•	Analyzing findings and implementing remediation steps.
-•	Continuous monitoring and compliance checks with AWS Inspector.
-
-AWS GuardDuty
-•	Introduction to AWS GuardDuty for threat detection.
-•	Setting up AWS GuardDuty for continuous security monitoring.
-•	Analyzing security findings and alerts.
-•	Implementing remediation and response actions based on GuardDuty findings.
+AWS CloudTrail
+•	Understanding AWS CloudTrail Concepts
+•	Setting Up CloudTrail
+•	Configuring CloudTrail Settings
+•	Verifying and Analyzing CloudTrail Logs
 
 How to Use:
 1.	Clone this repository to your local machine using git clone https://github.com/yourusername/repository-name.git.
